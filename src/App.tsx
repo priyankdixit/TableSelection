@@ -27,7 +27,7 @@ const App: React.FC = () => {
     const [rows, setRows] = useState<number>(12); 
     const [rowClick, setRowClick] = useState<boolean>(false);
     const [searchValue, setSearchValue] = useState<string>(''); 
-    const [allArtworks, setAllArtworks] = useState<Artwork[]>([]); 
+   
 
     const op = useRef<OverlayPanel>(null);
 
